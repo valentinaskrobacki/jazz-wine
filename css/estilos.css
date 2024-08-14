@@ -841,6 +841,8 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 30px;
         margin-bottom: 15px;
         margin-top: 30px;
+        max-width: 290px; 
+        white-space: nowrap;
     }
 
     .container-quote p,
@@ -929,9 +931,11 @@ footer .redes-footer .fa-whatsapp-f:hover {
 
 @media screen and (max-width: 480px) {
     .container-info-cover h1 {
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 10px;
         margin-top: 35px;
+        max-width: 290px; 
+        white-space: nowrap;
     }
 
     .container-info-cover p {
@@ -941,7 +945,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
 
     .container-quote p,
     .quote-text small {
-        font-size: 8px;
+        font-size: 7px;
         margin: 10px 0;
     }
 
@@ -998,9 +1002,19 @@ footer .redes-footer .fa-whatsapp-f:hover {
         margin-bottom: 15px;
     }
 
-    .button-event {
-        padding: 10px 15px; 
-        font-size: 14px; 
+    .btn-proximo-evento {
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 10px 10px;
+        background-color: #eec170;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: 400;
+        right: -65%;
+        cursor: pointer;
+        top: 40%;
+        transition: background-color 0.3s ease;
     }
 
     .container-contact h2 {
@@ -1048,5 +1062,325 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 14px;
         font-weight: 350;
         color: #fff;
+    }
+
+    .whatsapp-button {
+        position: fixed;
+        bottom: 75px; 
+        right: 58px; 
+        background-color: #25D366; 
+        color: #fff;
+        border-radius: 50%;
+        width: 60px; 
+        height: 60px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000; 
+        text-decoration: none;
+        font-size: 24px; 
+        transition: background-color 0.3s ease; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-info-cover h1 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.1;
+        max-width: 290px; 
+        white-space: nowrap;
+    }
+
+    .container-info-cover p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .container-quote p,
+    .quote-text small {
+        font-size: 6px;
+        margin: 8px 0;
+    }
+
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    #info-banda {
+        padding: 25px 10px;
+        min-height: 100vh;
+    }
+
+    #info-banda .band-image {
+        max-width: 60%;
+        margin-bottom: 10px;
+    }
+
+    #info-banda h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #info-banda p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .btn-proximo-evento {
+        font-size: 16px;
+        padding: 8px 8px;
+    }
+
+    .container-contact h2 {
+        font-size: 20px;
+    }
+
+    .container-contact p, 
+    .container-contact ul li {
+        font-size: 16px;
+    }
+
+    .container-quote {
+        padding: 8px;
+        margin-top: 8px;
+    }
+    
+    .container-quote p {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .quote-image {
+        max-width: 30%;
+    }
+    .quote-text p {
+        font-size: 1rem;
+    }
+
+    .quote-text small {
+        font-size: 12px;
+    }
+
+    .whatsapp-button {
+        bottom: 60px; 
+        right: 45px; 
+        width: 50px; 
+        height: 50px; 
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-info-cover h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+
+    .container-info-cover p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .container-quote p,
+    .quote-text small {
+        font-size: 6px;
+        margin: 8px 0;
+    }
+
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    #info-banda {
+        padding: 25px 10px;
+        min-height: 100vh;
+    }
+
+    #info-banda .band-image {
+        max-width: 60%;
+        margin-bottom: 10px;
+    }
+
+    #info-banda h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #info-banda p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .btn-proximo-evento {
+        font-size: 16px;
+        padding: 8px 8px;
+    }
+
+    .container-contact h2 {
+        font-size: 20px;
+    }
+
+    .container-contact p, 
+    .container-contact ul li {
+        font-size: 16px;
+    }
+
+    .container-quote {
+        padding: 8px;
+        margin-top: 8px;
+    }
+    
+    .container-quote p {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .quote-image {
+        max-width: 30%;
+    }
+    .quote-text p {
+        font-size: 1rem;
+    }
+
+    .quote-text small {
+        font-size: 12px;
+    }
+
+    .whatsapp-button {
+        bottom: 60px; 
+        right: 45px; 
+        width: 50px; 
+        height: 50px; 
+        font-size: 20px;
+    }
+
+    .btn-proximo-evento {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px 10px;
+        background-color: #eec170;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: 400;
+        right: -65%;
+        cursor: pointer;
+        top: 40%;
+        transition: background-color 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container-info-cover h1 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.1;
+        max-width: 290px; 
+        white-space: nowrap;
+    }
+
+    .container-info-cover p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .container-quote p,
+    .quote-text small {
+        font-size: 6px;
+        margin: 8px 0;
+    }
+
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    #info-banda {
+        padding: 25px 10px;
+        min-height: 100vh;
+    }
+
+    #info-banda .band-image {
+        max-width: 60%;
+        margin-bottom: 10px;
+    }
+
+    #info-banda h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #info-banda p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .btn-proximo-evento {
+        font-size: 16px;
+        padding: 8px 8px;
+    }
+
+    .container-contact h2 {
+        font-size: 20px;
+    }
+
+    .container-contact p, 
+    .container-contact ul li {
+        font-size: 16px;
+    }
+
+    .container-quote {
+        padding: 8px;
+        margin-top: 8px;
+    }
+    
+    .container-quote p {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .quote-image {
+        max-width: 30%;
+    }
+    .quote-text p {
+        font-size: 1rem;
+    }
+
+    .quote-text small {
+        font-size: 12px;
+    }
+
+    .whatsapp-button {
+        bottom: 60px; 
+        right: 45px; 
+        width: 50px; 
+        height: 50px; 
+        font-size: 20px;
+    }
+
+    .btn-proximo-evento {
+        font-size: 14px;
+        margin-top: 20px;
+        padding: 10px 10px;
+        background-color: #eec170;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: 400;
+        right: -65%;
+        cursor: pointer;
+        top: 40%;
+        transition: background-color 0.3s ease;
     }
 }
