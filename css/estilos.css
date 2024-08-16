@@ -1385,7 +1385,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
     }
 }
 
-@media screen and (min-width: 361px) and (max-width: 370px) {
+@media screen and (min-width: 361px) and (max-width: 395px) {
     .btn-proximo-evento {
         font-size: 14px;
     }
