@@ -26,20 +26,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Carousel
-document.addEventListener('DOMContentLoaded', function() {
-    const slides = document.querySelectorAll('.carousel-slide img');
-    let currentIndex = 0;
-
-    function changeSlide() {
-        slides[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % slides.length;
-        slides[currentIndex].classList.add('active');
-    }
-
-    slides[currentIndex].classList.add('active');
-    setInterval(changeSlide, 5000); // Cambia cada 5 segundos
-});
 
 // Ocultar encabezado
 let lastScrollTop = 0;
