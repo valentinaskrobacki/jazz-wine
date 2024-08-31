@@ -271,11 +271,11 @@ header::after {
 
 
 .transparent-box {
-    background-color: rgba(156, 114, 36, 0.63); 
+    background-color: rgba(156, 114, 36, 0.63);
     width: 100%;
-    padding: 15px 20px; 
+    padding: 15px 20px;
     border-radius: 5px;
-    color: white;  
+    color: white;
 }
 
 /*Sección Próximos Eventos*/
@@ -285,8 +285,8 @@ header::after {
     padding: 60px 30px;
     background-color: #ecd9b5;
     background-image: url('../img/prox_evento1.jpg');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0;
@@ -306,12 +306,12 @@ header::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9);
-    z-index: 1; 
+    z-index: 1;
 }
 
-.container-next-event > * {
+.container-next-event>* {
     position: relative;
     z-index: 2;
 }
@@ -327,25 +327,28 @@ header::after {
     text-decoration-color: #eec170;
     text-underline-offset: 4px;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
-    animation: neon-glow 4s ease-in-out infinite alternate; 
+    animation: neon-glow 4s ease-in-out infinite alternate;
 }
 
 @keyframes neon-glow {
-    0%, 100% {
-        text-shadow: 
+
+    0%,
+    100% {
+        text-shadow:
             0 0 10px #eec170,
-            0 0 20px #eec170, 
+            0 0 20px #eec170,
             0 0 30px #eec170;
     }
+
     50% {
-        text-shadow: 
+        text-shadow:
             0 0 15px #eec170,
             0 0 25px #eec170,
             0 0 35px #eec170;
     }
 }
 
-.container-next-event h2, 
+.container-next-event h2,
 .container-next-event h4,
 .container-next-event h3,
 .container-next-event h5,
@@ -353,7 +356,7 @@ header::after {
 .container-next-event p {
     font-family: 'Playfair Display', serif;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .container-next-event h2 {
@@ -394,18 +397,17 @@ header::after {
     display: inline-flex;
     align-items: center;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #eec170;
     border: none;
     color: #1d1c1c;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     cursor: pointer;
     border-radius: 20px;
     transition: background-color 0.3s ease;
-    white-space: nowrap;
 }
 
 .contact-button i {
@@ -420,7 +422,7 @@ header::after {
 .info-link {
     color: #fff;
     text-decoration: none;
-    font-weight: bold; 
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
@@ -454,8 +456,8 @@ header::after {
     height: 100%;
     background: url('../img/fondo_carta.jpg') no-repeat center center;
     background-size: cover;
-    filter: brightness(50%) contrast(120%); 
-    z-index: -1; 
+    filter: brightness(50%) contrast(120%);
+    z-index: -1;
 }
 
 #carta-vinos h2 {
@@ -471,13 +473,13 @@ header::after {
     color: #eec170;
     top: 0;
     text-decoration: underline;
-    text-decoration-color: #eec170; 
+    text-decoration-color: #eec170;
     text-decoration-thickness: 2px;
 }
 
 #carta-vinos a {
-    text-decoration: none; 
-    color: inherit; 
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -566,7 +568,7 @@ header::after {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .drink-description {
@@ -611,7 +613,8 @@ header::after {
 }
 
 
-.wine-item, .drink-item {
+.wine-item,
+.drink-item {
     background-color: rgba(255, 255, 255, 0.418);
     padding: 20px 30px;
     border-radius: 10px;
@@ -621,7 +624,8 @@ header::after {
     margin: 10px auto;
 }
 
-.wine-list, .drink-list {
+.wine-list,
+.drink-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -813,13 +817,21 @@ header::after {
     background: linear-gradient(45deg, #eec270b7, #eec2702f);
     background-size: 400% 400%;
     animation: gradientAnimation 3s ease infinite;
-    padding: 50px 20px; 
+    padding: 50px 20px;
 }
 
 @keyframes gradientAnimation {
-    0% { background-position: 0% 0%; }
-    50% { background-position: 100% 100%; }
-    100% { background-position: 0% 0%; }
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
 .container-contact h2 {
@@ -865,25 +877,25 @@ header::after {
 /* Botón de WhatsApp flotante */
 .whatsapp-button {
     position: fixed;
-    bottom: 70px; 
-    right: 60px; 
-    background-color: #25D366; 
+    bottom: 70px;
+    right: 60px;
+    background-color: #25D366;
     color: #fff;
     border-radius: 50%;
-    width: 60px; 
-    height: 60px; 
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000; 
+    z-index: 1000;
     text-decoration: none;
-    font-size: 24px; 
-    transition: background-color 0.3s ease; 
+    font-size: 24px;
+    transition: background-color 0.3s ease;
 }
 
 .whatsapp-button:hover {
-    background-color: #128C7E; 
+    background-color: #128C7E;
 }
 
 .whatsapp-button i {
@@ -1050,7 +1062,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 30px;
         margin-bottom: 15px;
         margin-top: 30px;
-        max-width: 290px; 
+        max-width: 290px;
         white-space: nowrap;
     }
 
@@ -1127,12 +1139,16 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .container-contact h2 {
         font-size: 28px;
     }
-    .container-contact p, .container-contact ul li {
+
+    .container-contact p,
+    .container-contact ul li {
         font-size: 20px;
     }
+
     .container-contact {
         padding: 40px 15px;
     }
+
     .contact-button {
         font-size: 16px;
         padding: 8px 16px;
@@ -1146,7 +1162,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 26px;
         margin-bottom: 10px;
         margin-top: 35px;
-        max-width: 290px; 
+        max-width: 290px;
         white-space: nowrap;
     }
 
@@ -1232,9 +1248,12 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .container-contact h2 {
         font-size: 24px;
     }
-    .container-contact p, .container-contact ul li {
+
+    .container-contact p,
+    .container-contact ul li {
         font-size: 18px;
     }
+
     .container-contact {
         padding: 30px 10px;
     }
@@ -1252,7 +1271,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         border-top-right-radius: 200px;
         border-bottom-right-radius: 200px;
     }
-    
+
     .container-quote p {
         font-size: 24px;
         font-weight: 300;
@@ -1266,6 +1285,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .quote-image {
         max-width: 35%;
     }
+
     .quote-text p {
         font-size: 1.2rem;
     }
@@ -1278,21 +1298,21 @@ footer .redes-footer .fa-whatsapp-f:hover {
 
     .whatsapp-button {
         position: fixed;
-        bottom: 75px; 
-        right: 58px; 
-        background-color: #25D366; 
+        bottom: 75px;
+        right: 58px;
+        background-color: #25D366;
         color: #fff;
         border-radius: 50%;
-        width: 60px; 
-        height: 60px; 
+        width: 60px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        z-index: 1000; 
+        z-index: 1000;
         text-decoration: none;
-        font-size: 24px; 
-        transition: background-color 0.3s ease; 
+        font-size: 24px;
+        transition: background-color 0.3s ease;
     }
 }
 
@@ -1304,7 +1324,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         margin-top: 40px;
         font-family: 'Playfair Display', serif;
         line-height: 1.1;
-        max-width: 290px; 
+        max-width: 290px;
         white-space: nowrap;
     }
 
@@ -1353,7 +1373,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 20px;
     }
 
-    .container-contact p, 
+    .container-contact p,
     .container-contact ul li {
         font-size: 16px;
     }
@@ -1362,7 +1382,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         padding: 8px;
         margin-top: 8px;
     }
-    
+
     .container-quote p {
         font-size: 20px;
         margin: 15px 0;
@@ -1371,6 +1391,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .quote-image {
         max-width: 30%;
     }
+
     .quote-text p {
         font-size: 1rem;
     }
@@ -1380,10 +1401,10 @@ footer .redes-footer .fa-whatsapp-f:hover {
     }
 
     .whatsapp-button {
-        bottom: 60px; 
-        right: 45px; 
-        width: 50px; 
-        height: 50px; 
+        bottom: 60px;
+        right: 45px;
+        width: 50px;
+        height: 50px;
         font-size: 20px;
     }
 }
@@ -1440,7 +1461,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 20px;
     }
 
-    .container-contact p, 
+    .container-contact p,
     .container-contact ul li {
         font-size: 16px;
     }
@@ -1449,7 +1470,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         padding: 8px;
         margin-top: 8px;
     }
-    
+
     .container-quote p {
         font-size: 20px;
         margin: 15px 0;
@@ -1458,6 +1479,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .quote-image {
         max-width: 30%;
     }
+
     .quote-text p {
         font-size: 1rem;
     }
@@ -1467,10 +1489,10 @@ footer .redes-footer .fa-whatsapp-f:hover {
     }
 
     .whatsapp-button {
-        bottom: 60px; 
-        right: 45px; 
-        width: 50px; 
-        height: 50px; 
+        bottom: 60px;
+        right: 45px;
+        width: 50px;
+        height: 50px;
         font-size: 20px;
     }
 
@@ -1498,7 +1520,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         margin-top: 40px;
         font-family: 'Playfair Display', serif;
         line-height: 1.1;
-        max-width: 290px; 
+        max-width: 290px;
         white-space: nowrap;
     }
 
@@ -1547,7 +1569,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         font-size: 20px;
     }
 
-    .container-contact p, 
+    .container-contact p,
     .container-contact ul li {
         font-size: 16px;
     }
@@ -1556,7 +1578,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
         padding: 8px;
         margin-top: 8px;
     }
-    
+
     .container-quote p {
         font-size: 20px;
         margin: 15px 0;
@@ -1565,6 +1587,7 @@ footer .redes-footer .fa-whatsapp-f:hover {
     .quote-image {
         max-width: 30%;
     }
+
     .quote-text p {
         font-size: 1rem;
     }
@@ -1574,10 +1597,10 @@ footer .redes-footer .fa-whatsapp-f:hover {
     }
 
     .whatsapp-button {
-        bottom: 60px; 
-        right: 45px; 
-        width: 50px; 
-        height: 50px; 
+        bottom: 60px;
+        right: 45px;
+        width: 50px;
+        height: 50px;
         font-size: 20px;
     }
 
@@ -1597,8 +1620,16 @@ footer .redes-footer .fa-whatsapp-f:hover {
     }
 }
 
-@media screen and (min-width: 361px) and (max-width: 395px) {
+@media screen and (min-width: 361px) and (max-width: 400px) {
     .btn-proximo-evento {
         font-size: 12px;
+    }
+
+    .contact-button {
+        margin-bottom: 40px;
+    }
+
+    .container-next-event {
+        height: 110vh;
     }
 }
