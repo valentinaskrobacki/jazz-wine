@@ -334,7 +334,7 @@ header::after {
 }
 
 .container-next-event h1 {
-    font-size: 34px;
+    font-size: 32px;
     font-family: 'Playfair Display', serif;
     color: #eec170;
     margin-top: 15px;
@@ -401,8 +401,10 @@ header::after {
 
 .container-next-event p {
     font-size: 20px;
-    margin-top: 15px;
     margin-bottom: 40px;
+    margin-top: 15px;
+    color: #ffffffe1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .contact-button {
