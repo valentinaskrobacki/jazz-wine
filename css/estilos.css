@@ -850,6 +850,50 @@ footer .redes-footer .fa-whatsapp-f:hover {
 
 @media screen and (max-width: 768px) {
 
+    .container-info-cover h1 {
+        font-size: 24px;    
+    }
+
+    .container-info-cover p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .container-quote p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 1.4;
+    }
+
+    .container-quote {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .btn-proximo-evento {
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 40px;
+        font-weight: 400;
+        right: -65%;
+        top: 40%;
+    }
+
     .header-content,
     .container-content,
     .container-footer footer {
@@ -932,6 +976,32 @@ footer .redes-footer .fa-whatsapp-f:hover {
         display: flex;
         z-index: 1000;
         font-size: 24px;
+    }
+
+    .quote-image {
+        max-width: 35%;
+    }
+
+    .quote-text p {
+        font-size: 1.2rem;
+    }
+
+    .quote-text small {
+        font-size: 14px;
+        font-weight: 350;
+    }
+
+    .container-contact h2 {
+        font-size: 24px;
+    }
+
+    .container-contact p,
+    .container-contact ul li {
+        font-size: 18px;
+    }
+
+    .container-contact {
+        padding: 30px 10px;
     }
 }
 
